@@ -1,0 +1,4543 @@
+#LyX 2.1 created this file. For more info see http://www.lyx.org/
+\lyxformat 474
+\begin_document
+\begin_header
+\textclass article
+\begin_preamble
+\makeatletter
+\@addtoreset{section}{part}
+\makeatother
+\end_preamble
+\use_default_options true
+\maintain_unincluded_children false
+\language english
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman default
+\font_sans default
+\font_typewriter default
+\font_math auto
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100
+\font_tt_scale 100
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize default
+\spacing single
+\use_hyperref false
+\papersize default
+\use_geometry false
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 1
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 1
+\use_package mhchem 1
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
+\cite_engine basic
+\cite_engine_type default
+\biblio_style plain
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 1
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\quotes_language english
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Title
+LINGE1322: Informatique : analyse et conception de systèmes d'information
+\end_layout
+
+\begin_layout Author
+Synthèse
+\end_layout
+
+\begin_layout Date
+Année académique 2014-2015
+\end_layout
+
+\begin_layout Part
+Introduction à l'informatique de gestion
+\end_layout
+
+\begin_layout Section
+Problématoqie de l'informatique de gestion
+\end_layout
+
+\begin_layout Standard
+Différence entre connaissance, information et donnée :
+\begin_inset Foot
+status open
+
+\begin_layout Plain Layout
+Source : http://www.itilfrance.com/index.php?pc=pages/docs/itilv3-03/117-02.inc&pg=m
+enu_itilv3.inc&pt=Concept-cl%E9%20:%20Donn%E9es-%3E%20InformatIon%20-%3E%20Connai
+ssance%20-%3E%20Sagesse
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Donnée: 
+\series default
+une donnée est le résultat direct d'une mesure.
+ Une donnée seule ne permet pas de prendre une décision sur une action à
+ mener.
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Information:
+\series default
+ une information est une donnée à laquelle un sens et une interpretation
+ ont été donnés.
+ Une information permet à un responsable opérationnel de prendre une décision
+ sur une action à mener.
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Connaissance:
+\series default
+ La connaissance est le résultat d'une réflexion sur les informations analysées
+ en se basant sur :
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+ses expériences, ses idées, ses valeurs, les avis des autres personnes consultée
+s pour l'occasion
+\end_layout
+
+\begin_layout Itemize
+sa propre expertise et celle de ses pairs
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+La connaissance permet aux responsables de confronter les informtions au
+ contexte de l'organisation et à d'autres contextes externes à l'organisation
+ afin d'avoir une meilleure connaissance et une interprétation élargie des
+ phénomènes mis en lumière par ces informations.
+\end_layout
+
+\begin_layout Section
+Les systèmes d'information
+\end_layout
+
+\begin_layout Standard
+Notion de gestion intégrée
+\end_layout
+
+\begin_layout Standard
+Pyramide des trois niveaux
+\end_layout
+
+\begin_layout Itemize
+Niveau stratégique
+\end_layout
+
+\begin_layout Itemize
+Niveau décisionnel
+\end_layout
+
+\begin_layout Itemize
+Niveau opérationnel
+\end_layout
+
+\begin_layout Subsection
+Niveau opérationnel
+\end_layout
+
+\begin_layout Standard
+\begin_inset Graphics
+	filename niveau-operationnel.png
+	width 15cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Niveau décisionnel
+\end_layout
+
+\begin_layout Standard
+\begin_inset Graphics
+	filename niveau-decisionnel.png
+	width 15cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Niveau stratégique
+\end_layout
+
+\begin_layout Standard
+\begin_inset Graphics
+	filename niveau-strategique.png
+	width 15cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Comparaison des 3 niveaux :
+\end_layout
+
+\begin_layout Standard
+\begin_inset Tabular
+<lyxtabular version="3" rows="6" columns="4">
+<features rotate="0" tabularvalignment="middle">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Opérationnel
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Décisionnel
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Stratégique
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Structuration
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Forte
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Modérée
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Faible
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Exigence
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Différée
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Légèrement différée
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Temps réel
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Interactivité
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Faible
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Modérée
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Élevée
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Types de problèmes
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Administratifs, gestion courante
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Productivité, efficacité
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Amélioration de la qualité
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Terme
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Court
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Moyen
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Long
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Fichiers
+\end_layout
+
+\begin_layout Subsection
+Typologie des fichiers
+\end_layout
+
+\begin_layout Itemize
+La mémoire est le notion de base d'un SI
+\begin_inset Newline newline
+\end_inset
+
+C'est un ensemble structuré de fichiers reliés par des relations
+\end_layout
+
+\begin_layout Itemize
+Opération : création, suppression, modification, consultation
+\end_layout
+
+\begin_layout Itemize
+Types
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Fichiers permanents
+\end_layout
+
+\begin_layout Itemize
+Fichiers de mouvement
+\end_layout
+
+\begin_layout Itemize
+Fichiers de manoeuvre
+\end_layout
+
+\begin_layout Itemize
+Fichiers archives
+\end_layout
+
+\end_deeper
+\begin_layout Subsection
+Structure des fichiers
+\end_layout
+
+\begin_layout Itemize
+Fichier : ensemble structuré d'enregistrements
+\end_layout
+
+\begin_layout Itemize
+Enregistremet : ensemble structuré de champs
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Peut être logique ou physique
+\end_layout
+
+\begin_layout Itemize
+Possède éventuellemnt une structure décrite par 
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Nom
+\end_layout
+
+\begin_layout Itemize
+Taille
+\end_layout
+
+\begin_layout Itemize
+Type de données
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Subsection
+Organisation et exploitation des fichiers
+\end_layout
+
+\begin_layout Itemize
+Organisation : disposition physique
+\end_layout
+
+\begin_layout Itemize
+Exploitation : manière d'accéder aux données
+\end_layout
+
+\begin_layout Section
+Modèles de base de données
+\end_layout
+
+\begin_layout Subsection
+Principes et objectifs des bases de données
+\end_layout
+
+\begin_layout Standard
+Objectifs
+\end_layout
+
+\begin_layout Itemize
+On doit chercher des enregistrements suivants un ou plusieurs critères ou
+ clés dans un ou plusieurs fichiers
+\end_layout
+
+\begin_layout Itemize
+Exemple: ouvrages d'une bibliothèque
+\end_layout
+
+\begin_layout Standard
+Principes
+\end_layout
+
+\begin_layout Itemize
+Intégration, interrogation, partageabilité, sécurité
+\end_layout
+
+\begin_layout Standard
+Exemple : catalogue électroniquede produits
+\end_layout
+
+\begin_layout Standard
+Solutions possibles : 
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Solution statique
+\series default
+ :codée directement en HTML
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Solution dynamique sur fichiers : 
+\series default
+générée automatiquement sur un,plusieurs fichiers 
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Solution dynamique sur base de données
+\series default
+ :idem, avec un système de gestion de base de données
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Solution par construction
+\series default
+ : par l'utilisateur
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Solution décentralisée
+\end_layout
+
+\begin_layout Subsection
+Problèmes liés à l'utilisation de bases de données
+\end_layout
+
+\begin_layout Itemize
+Stockage : indépendant des applications
+\end_layout
+
+\begin_layout Itemize
+Cohérence : assurée pour toutes les données stockées
+\end_layout
+
+\begin_layout Itemize
+Intégrité : assurée pour toutes les données stockées
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+moyens de sauvegarde (totale, incémentale)
+\end_layout
+
+\begin_layout Itemize
+moyens de régénération (ancienne, trace)
+\end_layout
+
+\end_deeper
+\begin_layout Part
+Le modèle du domaine
+\end_layout
+
+\begin_layout Section
+Introduction au modèle du domaine 
+\end_layout
+
+\begin_layout Standard
+Le diagramme des classes est 
+\end_layout
+
+\begin_layout Itemize
+Un modèle du domaine
+\begin_inset Newline newline
+\end_inset
+
+Un modèle qui définit les objets que l'utilisateur final peut voir , accéder
+ et manipuler à travers le système avec les relations entre ces objets
+\end_layout
+
+\begin_layout Itemize
+Un modèle structurel
+\begin_inset Newline newline
+\end_inset
+
+Une vue d'un système qui met l'accent sur la structure des objets, avec
+ leurs classificateurs, leurs relations, leurs attributs et leurs opérations
+\end_layout
+
+\begin_layout Itemize
+Un modèle du domaine est plus qu'on modèle de données (modèle de données
+ 
+\begin_inset Formula $\text{∈}$
+\end_inset
+
+ modèle du domaine )
+\end_layout
+
+\begin_layout Section
+Identification des classes
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Classe : 
+\series default
+description d'un ensemble d'objets qui ont même 
+\end_layout
+
+\begin_layout Itemize
+Sémantique
+\end_layout
+
+\begin_layout Itemize
+Structure
+\end_layout
+
+\begin_layout Standard
+Une classe constitue un canevas de sémantique et de structure à partir duquel
+ des objets individuels peuvent être instantiés
+\end_layout
+
+\begin_layout Itemize
+Classe : voiture
+\end_layout
+
+\begin_layout Itemize
+Objets : ma propre voiture, la voiture du voisin
+\end_layout
+
+\begin_layout Standard
+Description d'un ou de plusieurs objets de manière uniformisée, avec moyens
+ de gérer les objets de cette classe.
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Objet 
+\series default
+: une abstraction que quelque chose présent dans le domaine d'intérêt qui
+ doit refléter une capacité du système d'information à maintenir cette informati
+on et à intéragir avec elle.
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Diagramme de classe : 
+\series default
+moyen de décrire les classes en vue de leur implémentation
+\end_layout
+
+\begin_layout Itemize
+Est le modèle le plus fréquent
+\end_layout
+
+\begin_layout Itemize
+Fournit les fondements nécessaires pour les liens avec les autres modèles
+\end_layout
+
+\begin_layout Itemize
+Ne décrit que la partie structurelle, statique 
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Règles pour identifier des objets et classes :
+\end_layout
+
+\begin_layout Itemize
+Rôles joués dans l'organisation
+\begin_inset Newline newline
+\end_inset
+
+(client de la banque, ...)
+\end_layout
+
+\begin_layout Itemize
+Choses ou événements à conserver
+\begin_inset Newline newline
+\end_inset
+
+(connexion à un site web, ...)
+\end_layout
+
+\begin_layout Itemize
+Appareils physiques 
+\begin_inset Newline newline
+\end_inset
+
+(ordinateur personnel)
+\end_layout
+
+\begin_layout Itemize
+Règles de gestion 
+\begin_inset Newline newline
+\end_inset
+
+(calcul du taux d'intérêt, ...)
+\end_layout
+
+\begin_layout Itemize
+Sites physiques 
+\begin_inset Newline newline
+\end_inset
+
+(chantiers versus siège, ...)
+\end_layout
+
+\begin_layout Standard
+3 perspectives de Fowler
+\end_layout
+
+\begin_layout Itemize
+Conceptuelle : le diagramme représente le domaine étudié indépendamment
+ de tout système
+\end_layout
+
+\begin_layout Itemize
+Spécification : quelles sont les conditions, l'interface offerte avec l'extérieu
+r
+\end_layout
+
+\begin_layout Itemize
+Implémentation : chaque classe est implémentée directement
+\end_layout
+
+\begin_layout Standard
+Comment trouver les classes ?
+\end_layout
+
+\begin_layout Itemize
+Observer les pratiques et comportements
+\end_layout
+
+\begin_layout Itemize
+Interviewer les intervenants
+\end_layout
+
+\begin_layout Itemize
+Consigner dans un scénario textuel
+\end_layout
+
+\begin_layout Itemize
+Vérifier avec les classes préalablement identifiées
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+En vue de préserver la cohérence
+\end_layout
+
+\begin_layout Itemize
+En vue de maximiser la réutilisabilité
+\end_layout
+
+\begin_layout Itemize
+En vue d'optimiser la structuration
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Considérer d'autres SI
+\end_layout
+
+\begin_layout Itemize
+Lire les manuels et règles de gestion
+\end_layout
+
+\begin_layout Itemize
+Prototyper le système
+\end_layout
+
+\begin_layout Section
+Identification des attributs
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Attribut 
+\end_layout
+
+\begin_layout Itemize
+Propriété commune des objets d'une classe 
+\end_layout
+
+\begin_layout Itemize
+Toute donnée d'un objet d'une classe possédant sa propre valeur
+\end_layout
+
+\begin_layout Itemize
+Doit représenter un concept tangible, concret, atomique avec une valeur,
+ un ensemble de valeurs
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Bons exemples : nom, prénom, adresse
+\end_layout
+
+\begin_layout Itemize
+Mauvais exemples : esthétique, ce qu'on fait dans la journée
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Doit être placé dans la classe qui lui correspond, qui la décrit le mieux
+\end_layout
+
+\begin_layout Itemize
+Dans une structure d'héritage, les attributs partagés par un certain nombre
+ de sous-classes doivent être logés au niveau d'une super-classe
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Les attributs génériques dans la super-classe
+\end_layout
+
+\begin_layout Itemize
+Les attributs dans la sous-classe
+\end_layout
+
+\end_deeper
+\begin_layout Paragraph
+Déclaration d'un attribut
+\end_layout
+
+\begin_layout Standard
+[visibilité] nom [card] [:type] [= valeur initiale][{props...}]
+\end_layout
+
+\begin_layout Standard
+Utilisation plus limitée que dans une modélisation de type entité-association
+\end_layout
+
+\begin_layout Standard
+Type
+\end_layout
+
+\begin_layout Itemize
+A réserver à des types primitifs (entier, réel) ou des 
+\begin_inset Quotes eld
+\end_inset
+
+structures de données
+\begin_inset Quotes erd
+\end_inset
+
+ simples (string, date)
+\end_layout
+
+\begin_layout Itemize
+Ne pas utiliser de structures de type tableau, liste, ...
+ Sauf exception...
+\end_layout
+
+\begin_layout Paragraph
+Nature
+\end_layout
+
+\begin_layout Itemize
+Obligatoire / facultatif
+\end_layout
+
+\begin_layout Itemize
+Simple / répétitif
+\end_layout
+
+\begin_layout Itemize
+Élémentaire / décomposable
+\end_layout
+
+\begin_layout Paragraph
+Visibilité des attributs
+\end_layout
+
+\begin_layout Itemize
+Public (+) : visible et utilisable par toute autre classe (utilisation très
+ limitée)
+\end_layout
+
+\begin_layout Itemize
+Protégé (#) : visible et utilisable par toute spécialisation de la classe
+\end_layout
+
+\begin_layout Itemize
+Privé (-) : visible uniquement par la classe elle-même
+\end_layout
+
+\begin_layout Itemize
+Dérivé (/) : calculé à partir d'autres attributs
+\end_layout
+
+\begin_layout Itemize
+Autre (?) : inconnu
+\end_layout
+
+\begin_layout Itemize
+Non spécifie () : indéterminée
+\end_layout
+
+\begin_layout Paragraph
+Recommandations d'identification
+\end_layout
+
+\begin_layout Itemize
+Questions anthropomorphiques
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Comment suis-je décrit en général ?
+\end_layout
+
+\begin_layout Itemize
+Comment suis-je décrit dans le domaine d'intérêt ?
+\end_layout
+
+\begin_layout Itemize
+Comment suis-je décrit vis-à-vis des responsabilités assignées au SI ?
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Questions de responsabilités 
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Que dois-je savoir ?
+\end_layout
+
+\begin_layout Itemize
+Quel états dois-je sauvegarder dans le temps ?
+\end_layout
+
+\begin_layout Itemize
+Quels sont les états significatifs ?
+\end_layout
+
+\end_deeper
+\begin_layout Paragraph
+Identification d'une classe
+\end_layout
+
+\begin_layout Itemize
+Identifiant : moyen de désigner de manière univoque n'importe quel objet
+ d'une classe
+\end_layout
+
+\begin_layout Itemize
+Aucune paire d'objets d'une même classe ne partage le même identifiant
+\end_layout
+
+\begin_layout Itemize
+Attribut simple : noma, n° chassis, code, référence
+\end_layout
+
+\begin_layout Itemize
+Attributs multiples : n°chassis, plaque immatriculation
+\end_layout
+
+\begin_layout Itemize
+Attributs groupés : nom + prénoms + localité
+\end_layout
+
+\begin_layout Section
+Identification des méthodes
+\end_layout
+
+\begin_layout Standard
+Une méthode 
+\end_layout
+
+\begin_layout Itemize
+Exprime un comportement particulier dont une classe peut faire preuve
+\end_layout
+
+\begin_layout Itemize
+Exprime ce qu'une classe peut faire en offrant une série de services à l'extérie
+ur, pour les autres classes
+\end_layout
+
+\begin_layout Itemize
+Synoymes = fonction, opération, service, ...
+\end_layout
+
+\begin_layout Itemize
+Autorise le changement d'état de tout objet par l'appel de méthode 
+\end_layout
+
+\begin_layout Standard
+Un état
+\end_layout
+
+\begin_layout Itemize
+Est représenté par les valeurs collectives d'un ensemble d'attributs d'une
+ classe d'objets 
+\end_layout
+
+\begin_layout Itemize
+Tout changement résulte d'une invocation de méthode 
+\end_layout
+
+\begin_layout Paragraph
+Méthodes simples
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Méthodes CRUD
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Create : rée et initialise un nouvel objet
+\end_layout
+
+\begin_layout Itemize
+Read : accède, obtient la valeur d'un attribut quelconque d'un objet
+\end_layout
+
+\begin_layout Itemize
+Update : assigne une valeur à un attribut quelconque d'un objet
+\end_layout
+
+\begin_layout Itemize
+Delete : déconnecte, rend à nouveau disponible un objet
+\end_layout
+
+\begin_layout Itemize
+==> Devraient toujours être présentes
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Connect : appelle une méthode d'un autre objet
+\end_layout
+
+\begin_layout Itemize
+Méthodes complexes
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Calculate : calcule un résultat à partir des valeurs des attributs d'un
+ objet
+\end_layout
+
+\begin_layout Itemize
+Monitor : surveille l'état d'un système ou appareil extérieur
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Est approprié pour tous les appareils d'acquisition et de restitution des
+ données connectés au SI
+\end_layout
+
+\begin_layout Itemize
+Est approprié pour tous les systèmes de contrôle 
+\end_layout
+
+\begin_layout Itemize
+Est souvent complété par 
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Initialise : initialise le système de surveillance
+\end_layout
+
+\begin_layout Itemize
+Terminate : clôture le système de surveillance
+\end_layout
+
+\begin_layout Itemize
+Listen : écoute les événements qui y surviennent
+\end_layout
+
+\begin_layout Itemize
+Re-initialise : réinitialise le système suite à un problème
+\end_layout
+
+\end_deeper
+\end_deeper
+\end_deeper
+\begin_layout Standard
+2 stratégies d'identification 
+\end_layout
+
+\begin_layout Itemize
+Introspection : on observe comment les objets changent au cours du temps
+ 
+\end_layout
+
+\begin_layout Itemize
+Interconnexion : on regarde comment un objet est connecté à d'autres objets
+ durant sa durée de vie
+\end_layout
+
+\begin_layout Paragraph
+Déclaration d'une méthode
+\end_layout
+
+\begin_layout Standard
+[visibilité] nom [(params)] [: type] [{props ...}]
+\end_layout
+
+\begin_layout Standard
+params := [in | out | inout] nom [: type] [=defaut] [{props ...}]
+\end_layout
+
+\begin_layout Section
+Identification des relations
+\end_layout
+
+\begin_layout Standard
+Notation des relations 
+\end_layout
+
+\begin_layout Itemize
+En principe, une relation est implicitement bidirectionnelle, mais on peut
+ la diriger
+\end_layout
+
+\begin_layout Paragraph
+Multiplicité des relations
+\end_layout
+
+\begin_layout Standard
+[min][..][max]
+\end_layout
+
+\begin_layout Itemize
+0 ou plus : 0..* ou *
+\end_layout
+
+\begin_layout Itemize
+1 à 40 : 1..40
+\end_layout
+
+\begin_layout Itemize
+1 ou plus : 1..*
+\end_layout
+
+\begin_layout Itemize
+Exactement 5: 5
+\end_layout
+
+\begin_layout Standard
+Notes :
+\end_layout
+
+\begin_layout Itemize
+0..0 n'a pas de sens (c'est comme si il n'y avait pas de relations)
+\end_layout
+
+\begin_layout Itemize
+0..1 : équivalent à un booléen
+\end_layout
+
+\begin_layout Itemize
+1..1 ou 1 : exactement 1, possible mais peu intéressant
+\end_layout
+
+\begin_layout Itemize
+m..n : cas le plus général ou 
+\begin_inset Formula $m\leq n$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Paragraph
+4 types fondamentaux de relations
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Dépendance 
+\series default
+: pour exprimer une dépendance fonctionnelle entre deux classes
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Une dépendance exprime qu'une classe en utilise une autre
+\end_layout
+
+\begin_layout Itemize
+Tout changement dans une classe affecte l'autre
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+
+\series bold
+Généralisation
+\series default
+ : pour exprimer l'héritage d'une classe à l'autre
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Se traduit par une relation d'héritage
+\end_layout
+
+\begin_layout Itemize
+Définit une relation 
+\begin_inset Quotes eld
+\end_inset
+
+est-un
+\begin_inset Quotes erd
+\end_inset
+
+ entre classes
+\end_layout
+
+\begin_layout Itemize
+Une classe peut hériter des attributs et/ou des méthodes de l'autre classe
+\end_layout
+
+\begin_layout Itemize
+La généralisation implique la possibilité de substitution
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+
+\series bold
+Association 
+\series default
+: pour exprimer les relations proprement dites, au sens large
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Aggrégation
+\series default
+ : pour exprimer le lien tout-partie
+\end_layout
+
+\begin_layout Paragraph
+Héritage
+\end_layout
+
+\begin_layout Itemize
+Constitue une hiérarchie de classes dont les nouvelles classes forment des
+ spécialisations de classes déja existantes
+\end_layout
+
+\begin_layout Itemize
+Permet une meilleure structuration et compréhension des classes
+\end_layout
+
+\begin_layout Itemize
+Améliore la réutilisabilité et l'extensibilité
+\end_layout
+
+\begin_layout Itemize
+2 types d'héritage
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+
+\series bold
+Héritage simple
+\series default
+ : une sous-classe hérite d'une et d'une seule super-classe
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Héritage multiple 
+\series default
+: une sous-classe hérite simultanément de plusieurs super-classes
+\end_layout
+
+\end_deeper
+\begin_layout Paragraph
+Hiérarchie de classes
+\end_layout
+
+\begin_layout Standard
+Les classes, organisées en hiérarchie suivant le relation d'héritage entre
+ elles, définissent un arbre d'héritage
+\end_layout
+
+\begin_layout Paragraph
+Relation 
+\begin_inset Quotes eld
+\end_inset
+
+tout-partie
+\begin_inset Quotes erd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Une relation tout-partie indique qu'une entité est composée d'une ou de
+ plusieurs parties qui sont elles-mêmes des instances de cette entité ou
+ d'une autre.
+\end_layout
+
+\begin_layout Itemize
+Permet la représentation d'hiérarchie de composition
+\end_layout
+
+\begin_layout Itemize
+Exemple: une voiture est composée d'un moteur, d'un chassis, de sièges,
+ de roues, ...
+\end_layout
+
+\begin_layout Itemize
+Considérer chaque objet comme un tout
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Pour chaque composant potentiel, se poser la question :
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Appartient-il au domaine d'intérêt ?
+\end_layout
+
+\begin_layout Itemize
+Convient-il aux responsabilités du SI ?
+\end_layout
+
+\begin_layout Itemize
+Capture-t-il juste une valeur oubien est-il un conceptvéritable ?
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Si valeur, insérer un attribut
+\end_layout
+
+\begin_layout Itemize
+Si concept, insérer une classe
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+L'abstraction est-elle utile ?
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Considérer aussi chaque objet comme une partie
+\end_layout
+
+\end_deeper
+\begin_layout Paragraph
+Relation de composition
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes eld
+\end_inset
+
+est partie de
+\begin_inset Quotes erd
+\end_inset
+
+ (is part of)
+\end_layout
+
+\begin_layout Itemize
+Les classes et les objets qui en sont instantiés peuvent être imbriqués
+ dans d'autres classes
+\end_layout
+
+\begin_layout Itemize
+Exemple :
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Le corps humain est composé de deux poumons
+\end_layout
+
+\begin_layout Itemize
+La classe 
+\begin_inset Quotes eld
+\end_inset
+
+poumon
+\begin_inset Quotes erd
+\end_inset
+
+ est partie de la classe 
+\begin_inset Quotes eld
+\end_inset
+
+corps humain
+\begin_inset Quotes erd
+\end_inset
+
+ avec 2 instances
+\end_layout
+
+\begin_layout Itemize
+Toute instance de corps humain a donc 2 instances de poumon
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+Classe d'association 
+\end_layout
+
+\begin_layout Standard
+Pour qualifier la nature d'une association
+\end_layout
+
+\begin_layout Section
+Résumé synoptique
+\end_layout
+
+\begin_layout Standard
+Validité d'un diagramme de classe
+\end_layout
+
+\begin_layout Itemize
+Complétude : toute l'information relative au domaine d'intérêt est-elle
+ présente ?
+\end_layout
+
+\begin_layout Itemize
+Cohérence : toute l'information présente est-elle représentée de manière
+ compatible avec la réalité et avec le reste du diagramme ?
+\end_layout
+
+\begin_layout Itemize
+7 péchés de spécification de Meyer
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Bruit 
+\end_layout
+
+\begin_layout Itemize
+Silence
+\end_layout
+
+\begin_layout Itemize
+Contradiction
+\end_layout
+
+\begin_layout Itemize
+Surspecification
+\end_layout
+
+\begin_layout Itemize
+Ambiguité
+\end_layout
+
+\begin_layout Itemize
+Redondance
+\end_layout
+
+\begin_layout Itemize
+Incohérence
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+Patron de conception
+\end_layout
+
+\begin_layout Itemize
+Un patron de conception est une structure récurrente qui peut être réutilisée
+ dans différents cas en conservant la même structure, mais adaptéee au cas
+ particulier
+\end_layout
+
+\begin_layout Itemize
+Un patron aide à structurer l'approche pour un nouveau cas à partir de cas
+ précédents
+\end_layout
+
+\begin_layout Itemize
+Patrons
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Pattern 1 : entité-membre
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Ce patron décrit une situation générale dans laquelle des membres sont groupés
+ dans une entité de travail
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Pattern 2 : Acteur-participant
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Un acteur peut jouer un certain rôle en tant qu'acteur dans une organisation
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Pattern 3 : Participant-Transaction
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Une transaction implique des participants
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Pattern 4 : Transaction-Lieu
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Une transaction se situe dans un lieu
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Pattern 5 : Transaction-Item
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Une transaction est contituée d'une série d'items spécifiques
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Pattern 6 : Associé - autre associé
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Des associés sont des objets qui se connaissent l'un l'autre, mais sans
+ avoir besoin de connaître des données sur cette association ou d'historique
+ (pas de classe d'association)
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Pattern 7 : Hiérarchie de composants
+\end_layout
+
+\end_deeper
+\begin_layout Part
+Modèle de structuration des données
+\end_layout
+
+\begin_layout Section
+Définition et objectifs du schéma de décomposition du projet
+\end_layout
+
+\begin_layout Standard
+Définition
+\end_layout
+
+\begin_layout Standard
+Ensemble de concepts et de règles destinés à structurer un problème global
+ en une hiérarchie d'agrégats de traitements
+\end_layout
+
+\begin_layout Standard
+Objectifs
+\end_layout
+
+\begin_layout Itemize
+Représenter les traitements à diférents niveaux de détails
+\end_layout
+
+\begin_layout Itemize
+Procéder à une structuration d'un projet par raffinements successifs
+\end_layout
+
+\begin_layout Itemize
+Décomposer de manière arborescente
+\end_layout
+
+\begin_layout Section
+Concepts de base
+\end_layout
+
+\begin_layout Standard
+Le concept de projet
+\end_layout
+
+\begin_layout Itemize
+Définition
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Partie du problème global qui fait l'objet d'une étude d'opportunité et
+ d'une analyse conceptuelle
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Critères d'identification
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Différence d'objectifs opérationnels de l'organisation
+\end_layout
+
+\begin_layout Itemize
+Différence d'objectifs de gestion
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+Le concept d'application
+\end_layout
+
+\begin_layout Itemize
+Définition
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Traitement quasi autonome par rapport aux autres, qui consitue une unité
+ de planningdans la gestion du projet
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Critères d'identification
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Interactionfaible avec les autres applications 
+\end_layout
+
+\begin_layout Itemize
+Ponctualité de la communication
+\end_layout
+
+\begin_layout Itemize
+Échange d'agrégats informationnels
+\end_layout
+
+\begin_layout Itemize
+Homogénéité des messages 
+\end_layout
+
+\begin_layout Itemize
+Homogénéité des flux de données
+\end_layout
+
+\end_deeper
+\begin_layout Subsection
+Le concept de phase
+\end_layout
+
+\begin_layout Itemize
+Définition
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Traitement possédant une unité spatio-temporelle d'exécution, dans une cellule
+ d'activités
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Critères d'identification
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Dus à l'unité spatiale (inter, manuelle, auto, méca)
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Changement de lieu
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Poste de travail
+\end_layout
+
+\begin_layout Itemize
+Autre endroit (siège agence)
+\end_layout
+
+\begin_layout Itemize
+Parcours
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Changement de ressources
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Personne, matériel, information
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Itemize
+Dus à l'unité temporelle
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Existence d'une interruption
+\end_layout
+
+\begin_layout Itemize
+Existence d'un point d'attente
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+décision (ligne correcte) / accumulation (p.
+ chaque)
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Permanence de l'unité d'exécution
+\end_layout
+
+\begin_layout Itemize
+Périodicité de l'exécution
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Itemize
+Phase interactive = tâche pour l'utilisateur
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Exemples :
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Enregistrer un bon de commande client
+\end_layout
+
+\begin_layout Itemize
+Imprimer le courrier de masse
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Standard
+Représentation graphique
+\end_layout
+
+\begin_layout Standard
+\begin_inset Graphics
+	filename concept_phase.png
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Présentation standard des phases
+\end_layout
+
+\begin_layout Standard
+\begin_inset Tabular
+<lyxtabular version="3" rows="2" columns="6">
+<features rotate="0" tabularvalignment="middle">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+N°
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Nom de la phase
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Préd
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Définition
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Justification
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Nature
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+1
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Constit-dossier
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+-
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Constitution du dossier dans l'agence
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Manuelle
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+N°
+\series default
+ : numéro de la phase dans l'application
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Nom de la phase
+\series default
+ : dénomination abrégée de la phase 
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Préd
+\series default
+ : prédécesseur(s) éventuel(s)
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Définition
+\series default
+ : description détaillée de la phase
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Justification
+\series default
+ : liste des critères d'identification de phases concernés
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Nature
+\series default
+ : manuelle, interactive, automatiqueou mécanique
+\end_layout
+
+\begin_layout Subsection
+Le concept de fonction
+\end_layout
+
+\begin_layout Standard
+Définition et objectifs 
+\end_layout
+
+\begin_layout Itemize
+Correspond au niveau le plus élémentaire
+\end_layout
+
+\begin_layout Itemize
+Résulte de la décomposition d'une phase
+\end_layout
+
+\begin_layout Itemize
+Est associée à un ojectif et un comportement considérés comme élémentaires
+ par l'organisation
+\end_layout
+
+\begin_layout Itemize
+Traduit un objectif de gestion élémentaire
+\end_layout
+
+\begin_layout Itemize
+Effectue un échange indécomposable avec l'utilisateur
+\end_layout
+
+\begin_layout Itemize
+Correspond à une action minimale et cohérente
+\end_layout
+
+\begin_layout Standard
+Critères d'identification
+\end_layout
+
+\begin_layout Itemize
+Critère d'agrégabilité
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Chaque fonction doit correspondre à un sous-objectif de la phase
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Critère d'ergonomie
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Chaque fonction devrait être vue comme un service
+\end_layout
+
+\begin_layout Itemize
+L'échange de données doit être indécomposable (exécution sans interruption)
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Critère de cohérence
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Chaque fonction doit préserver l'intégrité des données
+\end_layout
+
+\end_deeper
+\begin_layout Section
+Rédaction d'un schéma de décomposition
+\end_layout
+
+\begin_layout Subsection
+Critères d'identification / 
+\begin_inset Quotes eld
+\end_inset
+
+trucs
+\begin_inset Quotes erd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Paragraph
+Pour découvrir une phase 
+\end_layout
+
+\begin_layout Itemize
+Changement de lieu
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Parcours, passer du siège à l'agence, changer de bureau, aller au poste
+ d'impression
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Changement de ressource
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+De type personne : une autre personne
+\end_layout
+
+\begin_layout Itemize
+De type matériel :
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Tout changement de nature (manuelle / interactive / automatique / mécanique)
+\end_layout
+
+\begin_layout Itemize
+Terminaux, imprimanté, réseau Internet
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+De type d'information : un autre type de dossier
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Point d'attente de type décision
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Décision humaine
+\end_layout
+
+\begin_layout Itemize
+Ligne correcte, commande enregistrée, si ..., acceptée, il peut dans ce cas
+ ..., il approuve
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Point d'attente de type accumulation
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Pour chaque produit, lorsque tout est arrivé, on attend un paquet pour l'envoyer
+, déclenche après réception de 10 paquets
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Différence de périodicité
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+À chaque réapprovisionnement - chaque fois qu'un produit est disponible
+ 
+\end_layout
+
+\begin_layout Itemize
+En fin de semaine - au moins 20 min.
+ en attente
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+Pour découvrir une fonction
+\end_layout
+
+\begin_layout Itemize
+Identifier les conditions minimales qui :
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Réalisent un sous-objectif de la phase
+\end_layout
+
+\begin_layout Itemize
+Conservent la cohérence du SI
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Identifier les actions élémentaires sur le SI (créer supprimer, modifier,
+ consulter, ...)
+\end_layout
+
+\begin_layout Itemize
+Identifier les entrées nécessaire pour effectuer ces actions
+\end_layout
+
+\begin_layout Itemize
+Toutes les entrées de la fonction sont-elles des entrées de la phase ?
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Si oui => fin
+\end_layout
+
+\begin_layout Itemize
+Si non
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Identifier une fonction
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Dont l'objectif est de produire cette entrée
+\end_layout
+
+\begin_layout Itemize
+Qui conserve la cohérence du SI
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Reprendre deux points plus haut
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Subsection
+Validation d'un schéma de décomposition
+\end_layout
+
+\begin_layout Standard
+Règles de complétude
+\end_layout
+
+\begin_layout Itemize
+CP11.
+ Tout traitement doit posséder
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Un nom
+\end_layout
+
+\begin_layout Itemize
+Une définition
+\end_layout
+
+\begin_layout Itemize
+Un objectif
+\end_layout
+
+\begin_layout Itemize
+Un niveau donné dans l'arborescence
+\end_layout
+
+\begin_layout Itemize
+Une relation d'appartenance avec un supérieur (sauf...)
+\end_layout
+
+\begin_layout Itemize
+Une relation d'appartenance avec un inférieur
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+CP2.
+ Le schéma doit vérifier la nomenclature
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Tout projet comprend au moins une application
+\end_layout
+
+\begin_layout Itemize
+Une application appartient à un et un seul projet
+\end_layout
+
+\begin_layout Itemize
+Une application comprend au moins une phase
+\end_layout
+
+\begin_layout Itemize
+Toute phase appartient à une seule application
+\end_layout
+
+\begin_layout Itemize
+Toute phase comprend au moins une fonction
+\end_layout
+
+\begin_layout Itemize
+Toute fonction appartient à une seule phase
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+Règles de cohérence
+\end_layout
+
+\begin_layout Itemize
+CH1.
+ Unicité des noms et absence d'homonynes 
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Tout traitement doit avoir un nom unique
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+CH2.
+ Absence de synonymes
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Pas de traitement présentant une même sémantique mais portant des noms différent
+s (exemple : quit / exit)
+\end_layout
+
+\end_deeper
+\begin_layout Part
+Modèle de la dynamique de traitements
+\end_layout
+
+\begin_layout Section
+Définition et objectif du schéma de la dynamique des traitements
+\end_layout
+
+\begin_layout Paragraph
+Définition 
+\end_layout
+
+\begin_layout Itemize
+Modèle représentant les conditions d'exécution et d'enchaînement des traitements
+ en vue de caractériser le comportement du système informatique
+\end_layout
+
+\begin_layout Paragraph
+Objectifs
+\end_layout
+
+\begin_layout Itemize
+Préciser la cause : la survenance d'un événement
+\end_layout
+
+\begin_layout Itemize
+Préciser l'effet : le déclenchement de processus 
+\end_layout
+
+\begin_layout Itemize
+Utiliser les structures algorithmiques de base
+\end_layout
+
+\begin_layout Itemize
+Préciser 2 niveau d'enchainement 
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Application en phases, phase et fonction
+\end_layout
+
+\end_deeper
+\begin_layout Section
+Concepts de base
+\end_layout
+
+\begin_layout Subsection
+Le concept de message
+\end_layout
+
+\begin_layout Itemize
+Représente une collection structurée d'informations véhiculées dans le système
+ informatique
+\end_layout
+
+\begin_layout Itemize
+Possède un contenu informationnel
+\end_layout
+
+\begin_layout Itemize
+Est associé à une présentation physique
+\end_layout
+
+\begin_layout Itemize
+Est caractérisé par un type
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Externe : échangé avec l'environnement (dest/prov)
+\end_layout
+
+\begin_layout Itemize
+Interne : échangé à l'intérieur du système
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Est représenté graphiquement par
+\end_layout
+
+\begin_layout Standard
+\begin_inset Graphics
+	filename concept_message.png
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Le concept de processus
+\end_layout
+
+\begin_layout Itemize
+Représente l'exécution d'un traitement dans le système informatique
+\end_layout
+
+\begin_layout Itemize
+Possède deux changements d'état
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Le déclenchement : création du processus
+\end_layout
+
+\begin_layout Itemize
+La terminaison : destruction du processus
+\end_layout
+
+\begin_layout Itemize
+Est représent graphiquement pas (un rectangle tout bête)
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Possède une nature
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Manuelle
+\end_layout
+
+\begin_layout Itemize
+Interactive
+\end_layout
+
+\begin_layout Itemize
+Automatique 
+\end_layout
+
+\begin_layout Itemize
+Mécanique
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Graphics
+	filename concept_processus.png
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Le concept d'événement
+\end_layout
+
+\begin_layout Itemize
+Représente un changement d'état qui survient à un moment donné de l'évolution
+ du système informatique
+\end_layout
+
+\begin_layout Itemize
+Correspond à un stimulus auquel le système doit réagir
+\end_layout
+
+\begin_layout Itemize
+Possède deux survenances possibles
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+À la génération d'un message
+\end_layout
+
+\begin_layout Itemize
+À un changements d'état du processus
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Déclanchement
+\end_layout
+
+\begin_layout Itemize
+Terminaison
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Itemize
+Est représenté graphiquement par une flèche
+\end_layout
+
+\begin_layout Subsection
+Les mécanismes dynamiques
+\end_layout
+
+\begin_layout Enumerate
+Message externe
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Le message externe 
+\begin_inset Quotes eld
+\end_inset
+
+commande client
+\begin_inset Quotes erd
+\end_inset
+
+ forme un événement qui en génération déclenche le processus 
+\begin_inset Quotes eld
+\end_inset
+
+enregistrement commande
+\begin_inset Quotes erd
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+Événement temporel
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Le message horaire 
+\begin_inset Quotes eld
+\end_inset
+
+il est 17h30
+\begin_inset Quotes erd
+\end_inset
+
+ forme un événements temporel qui en génération déclenche le processus 
+\begin_inset Quotes eld
+\end_inset
+
+expédition courrier
+\begin_inset Quotes erd
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+Enchaînement séquentiel : 
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+1e forme
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Le processus 
+\begin_inset Quotes eld
+\end_inset
+
+enregistrement commande
+\begin_inset Quotes erd
+\end_inset
+
+ en terminaison déclenche le processus 
+\begin_inset Quotes eld
+\end_inset
+
+préparation réquisition
+\begin_inset Quotes erd
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+2e forme
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Le processus 
+\begin_inset Quotes eld
+\end_inset
+
+enregistrement commande
+\begin_inset Quotes erd
+\end_inset
+
+ génère l'événement 
+\begin_inset Quotes eld
+\end_inset
+
+commande enregistrée
+\begin_inset Quotes erd
+\end_inset
+
+ qui en génération déclenche le processus 
+\begin_inset Quotes eld
+\end_inset
+
+préparation réquisition
+\begin_inset Quotes erd
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Enumerate
+Enchaînement parallèle
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+1e forme
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Le processus 
+\begin_inset Quotes eld
+\end_inset
+
+réception livraison
+\begin_inset Quotes erd
+\end_inset
+
+ en terminaison déclenche le processus 
+\begin_inset Quotes eld
+\end_inset
+
+contrôle qualité
+\begin_inset Quotes erd
+\end_inset
+
+ 
+\series bold
+ET 
+\series default
+le processus 
+\begin_inset Quotes eld
+\end_inset
+
+contrôle quantité
+\begin_inset Quotes erd
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+2e forme
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Le processus 
+\begin_inset Quotes eld
+\end_inset
+
+réception livraison
+\begin_inset Quotes erd
+\end_inset
+
+ génère l'événement 
+\begin_inset Quotes eld
+\end_inset
+
+livraison à contrôler
+\begin_inset Quotes erd
+\end_inset
+
+ qui en génération déclenche le processus 
+\begin_inset Quotes eld
+\end_inset
+
+contrôle qualité
+\begin_inset Quotes erd
+\end_inset
+
+ 
+\series bold
+ET 
+\series default
+le processus 
+\begin_inset Quotes eld
+\end_inset
+
+contrôle quantité
+\begin_inset Quotes erd
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+3e forme
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Le processus 
+\begin_inset Quotes eld
+\end_inset
+
+réception livraison
+\begin_inset Quotes erd
+\end_inset
+
+ génère les événements 
+\begin_inset Quotes eld
+\end_inset
+
+qualité à contrôler
+\begin_inset Quotes erd
+\end_inset
+
+ 
+\series bold
+ET
+\series default
+ 
+\begin_inset Quotes eld
+\end_inset
+
+quantité à contrôler
+\begin_inset Quotes erd
+\end_inset
+
+ qui en génération déclenchent respectivement les processus 
+\begin_inset Quotes eld
+\end_inset
+
+contrôle qualité
+\begin_inset Quotes erd
+\end_inset
+
+ et 
+\begin_inset Quotes eld
+\end_inset
+
+contrôle quantité
+\begin_inset Quotes erd
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Enumerate
+Enchaînement convergent
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+1e forme
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Le processus 
+\begin_inset Quotes eld
+\end_inset
+
+enregistrement versement
+\begin_inset Quotes erd
+\end_inset
+
+ 
+\series bold
+OU
+\series default
+ le processus 
+\begin_inset Quotes eld
+\end_inset
+
+enregistrement paiement
+\begin_inset Quotes erd
+\end_inset
+
+ en terminaison déclenche le processus 
+\begin_inset Quotes eld
+\end_inset
+
+impression solde
+\begin_inset Quotes erd
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+2e forme
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Le processus 
+\begin_inset Quotes eld
+\end_inset
+
+enregistrement versement
+\begin_inset Quotes erd
+\end_inset
+
+ 
+\series bold
+OU
+\series default
+ le processus 
+\begin_inset Quotes eld
+\end_inset
+
+enregistrement paiement
+\begin_inset Quotes erd
+\end_inset
+
+ génère lévénement 
+\begin_inset Quotes eld
+\end_inset
+
+solde à imprimer
+\begin_inset Quotes erd
+\end_inset
+
+ qui en génération déclenche le processus 
+\begin_inset Quotes eld
+\end_inset
+
+impression solde
+\begin_inset Quotes erd
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+3e forme 
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+L'événement 
+\begin_inset Quotes eld
+\end_inset
+
+versement enregistré
+\begin_inset Quotes erd
+\end_inset
+
+ généré par le processus 
+\begin_inset Quotes eld
+\end_inset
+
+enregistrement versement
+\begin_inset Quotes erd
+\end_inset
+
+ 
+\series bold
+OU
+\series default
+ l'événement 
+\begin_inset Quotes eld
+\end_inset
+
+paiement enregistré
+\begin_inset Quotes erd
+\end_inset
+
+ généré par le processus 
+\begin_inset Quotes eld
+\end_inset
+
+enregistrement paiement
+\begin_inset Quotes erd
+\end_inset
+
+, en génération déclenche le processus 
+\begin_inset Quotes eld
+\end_inset
+
+impression solde
+\begin_inset Quotes erd
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Enumerate
+Enchaînement synchronisé par conjonction
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+1e forme
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Le processus 
+\begin_inset Quotes eld
+\end_inset
+
+contrôle qualité
+\begin_inset Quotes erd
+\end_inset
+
+ 
+\series bold
+ET 
+\series default
+le processus 
+\begin_inset Quotes eld
+\end_inset
+
+contrôle quantité
+\begin_inset Quotes erd
+\end_inset
+
+ contribuent au point de synchronisation 
+\begin_inset Quotes eld
+\end_inset
+
+fin contrôle
+\begin_inset Quotes erd
+\end_inset
+
+ qui en réalisation déclenche le processus 
+\begin_inset Quotes eld
+\end_inset
+
+enregistrement livraison
+\begin_inset Quotes erd
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+2e forme
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+L'événement 
+\begin_inset Quotes eld
+\end_inset
+
+bordereau 1
+\begin_inset Quotes erd
+\end_inset
+
+ généré par le processus 
+\begin_inset Quotes eld
+\end_inset
+
+contrôle qualité
+\begin_inset Quotes erd
+\end_inset
+
+ 
+\series bold
+ET
+\series default
+ l'événement 
+\begin_inset Quotes eld
+\end_inset
+
+bordereau 2
+\begin_inset Quotes erd
+\end_inset
+
+ généré par le processus 
+\begin_inset Quotes eld
+\end_inset
+
+contrôle quantité
+\begin_inset Quotes erd
+\end_inset
+
+ contribuent au point desynchronisation 
+\begin_inset Quotes eld
+\end_inset
+
+fin contrôle
+\begin_inset Quotes erd
+\end_inset
+
+ qui en réalisation déclenche le processus 
+\begin_inset Quotes eld
+\end_inset
+
+enregistrement livraison
+\begin_inset Quotes erd
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Enumerate
+Enchaînement synchronisé par disjonction
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+1e forme
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Le processus 
+\begin_inset Quotes eld
+\end_inset
+
+enregistrement commande
+\begin_inset Quotes erd
+\end_inset
+
+ 
+\series bold
+OU
+\series default
+ le processus 
+\begin_inset Quotes eld
+\end_inset
+
+sélection commande
+\begin_inset Quotes erd
+\end_inset
+
+ contribuent à la réalisation du point de synchronisation 
+\begin_inset Quotes eld
+\end_inset
+
+terminaison commande
+\begin_inset Quotes erd
+\end_inset
+
+ qui en réalisation déclenche le processus 
+\begin_inset Quotes eld
+\end_inset
+
+traitement commande
+\begin_inset Quotes erd
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+2e forme
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+L'événement 
+\begin_inset Quotes eld
+\end_inset
+
+bon réquisition
+\begin_inset Quotes erd
+\end_inset
+
+ 
+\series bold
+OU
+\series default
+ l'événement temporel 
+\begin_inset Quotes eld
+\end_inset
+
+fin de journée
+\begin_inset Quotes erd
+\end_inset
+
+ contribuent au point de synchronisation 
+\begin_inset Quotes eld
+\end_inset
+
+constitution série
+\begin_inset Quotes erd
+\end_inset
+
+ qui en réalisation déclenche le processus 
+\begin_inset Quotes eld
+\end_inset
+
+préparation série
+\begin_inset Quotes erd
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Enumerate
+Enchaînement groupé
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+L'événement 
+\begin_inset Quotes eld
+\end_inset
+
+bon réquisition
+\begin_inset Quotes erd
+\end_inset
+
+ contribue au point de synchronisation 
+\begin_inset Quotes eld
+\end_inset
+
+constitution série
+\begin_inset Quotes erd
+\end_inset
+
+ qui en réalisation déclenche le processus 
+\begin_inset Quotes eld
+\end_inset
+
+préparation série
+\begin_inset Quotes erd
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+Enchaînement synchronisé: attente par conjonction
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+L'événement 
+\begin_inset Quotes eld
+\end_inset
+
+livraison
+\begin_inset Quotes erd
+\end_inset
+
+ en génération déclenche le processus 
+\begin_inset Quotes eld
+\end_inset
+
+contrôle qualité
+\begin_inset Quotes erd
+\end_inset
+
+ 
+\series bold
+ET 
+\series default
+le processus 
+\begin_inset Quotes eld
+\end_inset
+
+controle quantité
+\begin_inset Quotes erd
+\end_inset
+
+ qui contribuent au point de synchronisation 
+\begin_inset Quotes eld
+\end_inset
+
+fin contrôle
+\begin_inset Quotes erd
+\end_inset
+
+ qui en réalisation déclenche le processus 
+\begin_inset Quotes eld
+\end_inset
+
+enregistrement livraison
+\begin_inset Quotes erd
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+Enchaînement synchronisé : attente par accumulation
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+L'événement 
+\begin_inset Quotes eld
+\end_inset
+
+bon commande
+\begin_inset Quotes erd
+\end_inset
+
+ en génération déclenche le processus 
+\begin_inset Quotes eld
+\end_inset
+
+vérification ligne
+\begin_inset Quotes erd
+\end_inset
+
+ qui en terminaison contribue au point de synchronisation 
+\begin_inset Quotes eld
+\end_inset
+
+fin vérification
+\begin_inset Quotes erd
+\end_inset
+
+ qui en réalisation déclenche le processus 
+\begin_inset Quotes eld
+\end_inset
+
+mémorisation commande
+\begin_inset Quotes erd
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+Enchaînement synchronisé...
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+avec modalité de mémorisation
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Le processus 
+\begin_inset Quotes eld
+\end_inset
+
+préparation courrier
+\begin_inset Quotes erd
+\end_inset
+
+ 
+\series bold
+ET
+\series default
+ l'événement 
+\begin_inset Quotes eld
+\end_inset
+
+il est 15h
+\begin_inset Quotes erd
+\end_inset
+
+, en terminaison, respectivement en génération, contribuent au point de
+ synchronisation 
+\begin_inset Quotes eld
+\end_inset
+
+début expédition
+\begin_inset Quotes erd
+\end_inset
+
+ qui en réalisation déclenche le processus 
+\begin_inset Quotes eld
+\end_inset
+
+expédition courrier
+\begin_inset Quotes erd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Modalité de mémorisation : génération de 
+\begin_inset Quotes eld
+\end_inset
+
+il est 15h
+\begin_inset Quotes erd
+\end_inset
+
+ mémorisée pendant 2 heures
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+...
+ sans modalité de mémorisation
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Le processus 
+\begin_inset Quotes eld
+\end_inset
+
+préparation courrier
+\begin_inset Quotes erd
+\end_inset
+
+ 
+\series bold
+ET 
+\series default
+l'événement 
+\begin_inset Quotes eld
+\end_inset
+
+il est 15h
+\begin_inset Quotes erd
+\end_inset
+
+, en terminaison, respectivement en génération, contribuent au point de
+ synchronisation 
+\begin_inset Quotes eld
+\end_inset
+
+début expédition
+\begin_inset Quotes erd
+\end_inset
+
+ qui en réalisation déclenche le processus 
+\begin_inset Quotes eld
+\end_inset
+
+expédition courrier
+\begin_inset Quotes erd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Modalité de mémorisation : génération de 
+\begin_inset Quotes eld
+\end_inset
+
+il est 15h
+\begin_inset Quotes erd
+\end_inset
+
+ non mémorisée
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Enumerate
+Mécanisme de sélection : déclenchement conditionnel
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Le processus 
+\begin_inset Quotes eld
+\end_inset
+
+préparation commande
+\begin_inset Quotes erd
+\end_inset
+
+ en terminaison déclanche le processus 
+\begin_inset Quotes eld
+\end_inset
+
+enregistrement commande
+\begin_inset Quotes erd
+\end_inset
+
+ si la condition 
+\begin_inset Quotes eld
+\end_inset
+
+identification possible
+\begin_inset Quotes erd
+\end_inset
+
+ est vérifiée
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+Mécanisme de sélection : contribution conditionnelle
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Le processus 
+\begin_inset Quotes eld
+\end_inset
+
+enregistrement réquisition
+\begin_inset Quotes erd
+\end_inset
+
+ en terminaison contribue au point de synchronisation 
+\begin_inset Quotes eld
+\end_inset
+
+constitution série
+\begin_inset Quotes erd
+\end_inset
+
+ si la condition 
+\begin_inset Quotes eld
+\end_inset
+
+réquisition possible
+\begin_inset Quotes erd
+\end_inset
+
+ est vérifiée
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+Enchaînement conditionnel
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+1e forme
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Le processus 
+\begin_inset Quotes eld
+\end_inset
+
+vérification commande
+\begin_inset Quotes erd
+\end_inset
+
+ en terminaison déclenche le processus 
+\begin_inset Quotes eld
+\end_inset
+
+enregistrement commande
+\begin_inset Quotes erd
+\end_inset
+
+ si la condition 
+\begin_inset Quotes eld
+\end_inset
+
+commande valide
+\begin_inset Quotes erd
+\end_inset
+
+ est vérifiée, le processus 
+\begin_inset Quotes eld
+\end_inset
+
+rejet commande
+\begin_inset Quotes erd
+\end_inset
+
+ si la condition 
+\begin_inset Quotes eld
+\end_inset
+
+commande valide
+\begin_inset Quotes erd
+\end_inset
+
+ n'est pas vérifiée
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+2e forme
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Le processus 
+\begin_inset Quotes eld
+\end_inset
+
+vérification commande
+\begin_inset Quotes erd
+\end_inset
+
+ en terminaison génère l'événement 
+\begin_inset Quotes eld
+\end_inset
+
+commande à enregistrer si la condition 
+\begin_inset Quotes eld
+\end_inset
+
+commande valide
+\begin_inset Quotes erd
+\end_inset
+
+ est vérifiée, l'événement 
+\begin_inset Quotes eld
+\end_inset
+
+rejet commande
+\begin_inset Quotes erd
+\end_inset
+
+ si la condition 
+\begin_inset Quotes eld
+\end_inset
+
+commande valide
+\begin_inset Quotes erd
+\end_inset
+
+ n'est pas vérifiée
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+3e forme
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Le processus 
+\begin_inset Quotes eld
+\end_inset
+
+vérification commande
+\begin_inset Quotes erd
+\end_inset
+
+ en terminaison génère le message 
+\begin_inset Quotes eld
+\end_inset
+
+commande vérifiée
+\begin_inset Quotes erd
+\end_inset
+
+ qui déclenche le processus 
+\begin_inset Quotes eld
+\end_inset
+
+enregistrement commande
+\begin_inset Quotes erd
+\end_inset
+
+ si le résultat de ce message est positif et 
+\begin_inset Quotes eld
+\end_inset
+
+rejet commande
+\begin_inset Quotes erd
+\end_inset
+
+ si son résultat est négatif
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Enumerate
+Mécanisme de duplication : déclenchement multiple
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Le processus 
+\begin_inset Quotes eld
+\end_inset
+
+enregistrement réapprovisionnement
+\begin_inset Quotes erd
+\end_inset
+
+ en terminaison déclenche le processus 
+\begin_inset Quotes eld
+\end_inset
+
+enregistrement réquisition
+\begin_inset Quotes erd
+\end_inset
+
+ pour chaque 
+\begin_inset Quotes eld
+\end_inset
+
+commande différée
+\begin_inset Quotes erd
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+Mécanisme de duplication : contribution multiple
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+L'événement 
+\begin_inset Quotes eld
+\end_inset
+
+bon à expédier
+\begin_inset Quotes erd
+\end_inset
+
+ en génération contribue à plusieurs réalisations du point de synchronisation
+ 
+\begin_inset Quotes eld
+\end_inset
+
+début expédition
+\begin_inset Quotes erd
+\end_inset
+
+ pour lequel le processus 
+\begin_inset Quotes eld
+\end_inset
+
+enregistrement livraison
+\begin_inset Quotes erd
+\end_inset
+
+ contribue en terminaison
+\end_layout
+
+\end_deeper
+\begin_layout Section
+Rédaction d'un schéma de la dynamique
+\end_layout
+
+\begin_layout Subsection
+Validation d'un schéma de la dynamique
+\end_layout
+
+\begin_layout Paragraph
+Règles de complétude
+\end_layout
+
+\begin_layout Itemize
+Règles de complétude pour les processus
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+CP1.
+ Tout processus de niveau phase doit posséder une nature
+\end_layout
+
+\begin_layout Itemize
+CP2.
+ Tout processus non initial doit posséder un événement déclencheur
+\end_layout
+
+\begin_layout Itemize
+CP3.
+ Tout processus non terminal doit posséder une terminaison
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Règle de complétude pour les messages
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+CP4.
+ Tout message non initial doit posséder une génération (exception : messages
+ horaires)
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Règles de complétude pour les points de synchronisation
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+CP5.
+ Tout point de synchronisation doit être spécifié par une condition de réalisati
+on (exception: ET par défaut)
+\end_layout
+
+\begin_layout Itemize
+CP6.
+ Tout point de synchronisation doit posséder une terminaison
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Règles de complétude pour les sélections
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+CP7.
+ Tout point de sélection doit petre spécifié par une condition de sélection
+\end_layout
+
+\begin_layout Itemize
+CP8.
+ Tout point de sélection associé à un événement doit posséder une terminaison
+ pour les deux alternatives possibles
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Règle de complétude pour les duplications
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+CP9.
+ Tout point de duplication doit être spécifié par une expression de duplication
+\end_layout
+
+\end_deeper
+\begin_layout Paragraph
+Règles de cohérence
+\end_layout
+
+\begin_layout Itemize
+CH1.
+ La réalisation de tout point de synchronisation doit pouvoir être réalisée
+ par une combinaison d'événements initiaux
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Contradiction entre sélection et synchronisation par conjonction
+\end_layout
+
+\begin_layout Itemize
+Contradiction entre duplication et synchronisation par accumulation
+\end_layout
+
+\begin_layout Itemize
+Contradiction entre deux synchronisations
+\end_layout
+
+\begin_layout Itemize
+Contradiction entre deux contributions à une même synchronisation
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+CH2.
+ Les événements initiaux d'un sous-schéma doivent correspondre aux événemets
+ déclencheurs des processes décrits dans le sous-schéma
+\end_layout
+
+\begin_layout Subsection
+Démarche de rédaction
+\end_layout
+
+\begin_layout Itemize
+Démarche pour une application
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+À partir de la décomposition de l'application en phases, on représente les
+ phases
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Démarche pour une phase
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+À partir de la décomposition de la phase en fonctions, on représente toutes
+ les fonctions, on spécifie les messages en entrée/sortie
+\end_layout
+
+\end_deeper
+\begin_layout Part
+Modèle du flux des données
+\end_layout
+
+\begin_layout Section
+Définition et objectifs du diagramme des flux
+\end_layout
+
+\begin_layout Paragraph
+Définition
+\end_layout
+
+\begin_layout Standard
+Modèle dépeignant un portrait partiel du fonctionnement d'un système informatiqu
+e
+\end_layout
+
+\begin_layout Paragraph
+Objectifs
+\end_layout
+
+\begin_layout Itemize
+Représente grapiquement la production, la circulation et la destination
+ des messages
+\end_layout
+
+\begin_layout Itemize
+Donne une vue organisationnelle synthétique
+\end_layout
+
+\begin_layout Itemize
+Offre une base commune de dialogue entre concepteurs, informaticiens et
+ utilisateurs
+\end_layout
+
+\begin_layout Itemize
+Permet de quantifier l'enchaînement de processus
+\end_layout
+
+\begin_layout Itemize
+S'effectue au niveau phase uniquement
+\end_layout
+
+\begin_layout Section
+Concepts de base
+\end_layout
+
+\begin_layout Subsection
+Les concepts réutilisés
+\end_layout
+
+\begin_layout Itemize
+Le concept de message
+\end_layout
+
+\begin_layout Itemize
+Le concept de processus (au niveau phase)
+\end_layout
+
+\begin_layout Subsection
+Le concept d'unité organisationnelle
+\end_layout
+
+\begin_layout Itemize
+Définition 
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Élément de la structure organisationnelle où s'exécutent des processus et
+ où sont localisés les responsables de leur exécution
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Objectif
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Permet de situer dans le diagramme des flux les différents lieux où les
+ phases s'exécutent
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Exemples
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Département, service, atelier, magasin, poste de travail
+\end_layout
+
+\end_deeper
+\begin_layout Subsection
+Le concept d'environnement
+\end_layout
+
+\begin_layout Itemize
+Définition
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Est constitué de tout ce qui n'appartient pas au système informatique et
+ qui intéragit avec lui via des messages externes
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Objectif
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Permet de délimiter les frontières d'un système
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Exemples
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Les clients et les fournisseurs avec lesquels une société interagit
+\end_layout
+
+\end_deeper
+\begin_layout Section
+Rédaction d'un diagramme des flux
+\end_layout
+
+\begin_layout Subsection
+Démarche de rédaction d'un diagramme
+\end_layout
+
+\begin_layout Itemize
+RS1.
+ Remplacer un enchaînement conditionnel par un enchaînement
+\end_layout
+
+\begin_layout Itemize
+RS2.
+ Remplacer un enchaînement synchronisé par un enchaînement séquentiel
+\end_layout
+
+\begin_layout Itemize
+RS3.
+ Remplacer un enchaînement synchronisé par un enchaînement convergent
+\end_layout
+
+\begin_layout Itemize
+RS4.
+ Remplacer un enchaînement multiple par un enchaînement séquentiel
+\end_layout
+
+\begin_layout Subsection
+Validation d'un diagramme des flux
+\end_layout
+
+\begin_layout Itemize
+Règles de complétude
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+CP1.
+ Toute phase d'un diagramme des flux doit
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Avoir un nom
+\end_layout
+
+\begin_layout Itemize
+Recevoir un message en entrée
+\end_layout
+
+\begin_layout Itemize
+Générer un message en sortie, sauf, éventuellement, une phase terminale
+\end_layout
+
+\begin_layout Itemize
+Être générée par une et une seule unité organisationnelle
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+CP2.
+ Tout message doit
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Avoir un nom
+\end_layout
+
+\begin_layout Itemize
+Posséder une origine (phase/unité/environnement)
+\end_layout
+
+\begin_layout Itemize
+Posséder une destination (phase/unité/environnement)
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+CP3.
+ Toute unité organisationnelle doit
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Avoir un nom
+\end_layout
+
+\begin_layout Itemize
+[Etre responsable d'au moins une phase
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+CP4.
+ Toute composante de l'environnement doit
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Avoir un nom
+\end_layout
+
+\begin_layout Itemize
+Générer ou recevoir au moins un message externe
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Itemize
+Règles de cohérence
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+CH1.
+ Absense d'homonymes
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Chaque unité organisationnelle doit avoir un nom unique
+\end_layout
+
+\begin_layout Itemize
+Chaque message doit avoir un nom unique
+\end_layout
+
+\begin_layout Itemize
+Chaque phase doit avoir un nom unique
+\end_layout
+
+\begin_layout Itemize
+Chaque composante de l'environnement doit avoir un nom unique
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+CH2.
+ Absence de boucle
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Une phase ne peut pas générer un message à destination d'elle-même 
+\end_layout
+
+\begin_layout Itemize
+Il ne peut pas y avoir de circuit dont on ne peut sortir
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Subsection
+Démarche de rédaction d'un diagramme 
+\end_layout
+
+\begin_layout Itemize
+Idée :
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Partir du schéma de la dynamique
+\end_layout
+
+\begin_layout Itemize
+Répartir les phases dans les
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Unités organisationnelles
+\end_layout
+
+\begin_layout Itemize
+Composantes de l'environnement
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Simplifier l'enchaînement au moyen de 4 règles de simplification
+\end_layout
+
+\end_deeper
+\begin_layout Section
+Le diagramme de flux
+\end_layout
+
+\begin_layout Itemize
+Addition de messages horaires
+\end_layout
+
+\begin_layout Itemize
+Quantification temporelle du diagramme
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Le diagramme de flux est structuré suivant deux axes :
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+X = unités organisationnelles parcourues dans l'ordre du flux (on commence
+ en général par l'environnement)
+\end_layout
+
+\begin_layout Itemize
+Y = temps
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Quantification par valeur ou par contraire
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Égalité, inégalité, intervalle, ensemble
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Portant sur
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+La durée d'exécution ; une phase ou plusieurs phases
+\end_layout
+
+\begin_layout Itemize
+Le délai
+\end_layout
+
+\begin_layout Itemize
+La fréquence d'exécution
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Itemize
+Structuration des unités organisationnelles
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Doit suivre la structure organisationnelle
+\end_layout
+
+\begin_layout Itemize
+Dans un diagramme de flux simple, on considère toujours que le flux couvre
+ une organisation et son environnement
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+On ne modélise donc pas les flux extérieurs, si ce n'est sous une forme
+ simplifiée
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+L'environnement peut être ou non
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Groupé : une seule colonne, mais avec des cartouches différents suivants
+ les entités
+\end_layout
+
+\begin_layout Itemize
+Décomposé: une colonne par entité
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Exceptionnellement, deux colonnes peuvent se partager un traitement
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Plusieurs messages initiaux, terminaux sont possibles
+\end_layout
+
+\begin_layout Itemize
+Représentation graphique des flux
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Avec mise en évidence de la destination
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Le message appartient à l'unité destinataire
+\end_layout
+
+\begin_layout Itemize
+Utile lorsque l'on veut distinguer les destinataires
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+(par exemple, lettre à l'assuré, au courtier, au service concerné)
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Itemize
+Avec mise en évidence du destinateur
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Le message appartient à l'unité destinateur
+\end_layout
+
+\begin_layout Itemize
+Utile lorsque plusieurs instances du même message sont envoyées à différents
+ destinataires
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+(par exemple, copie assuré, copie courtier, copie compagnie)
+\end_layout
+
+\end_deeper
+\end_deeper
+\end_deeper
+\begin_layout Itemize
+Représentation graphique adaptée
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Seulement avec les messages importants 
+\end_layout
+
+\begin_layout Itemize
+Seuls les flux demeurent inchangés
+\end_layout
+
+\begin_layout Itemize
+Avec icône représentant les ressources mobilisées
+\end_layout
+
+\begin_layout Itemize
+Avec représentation graphique de la nature de la tâche
+\end_layout
+
+\end_deeper
+\begin_layout Section
+Démarche globale
+\end_layout
+
+\begin_layout Itemize
+Constitution d'une méthodologie
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Articulation en 3 pôles
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Graphics
+	filename demarche_globale.png
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Premier pôle d'une méthodologie : les modèles
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Un modèle
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Exprime en concepts et règles une vue partiellede la réalité
+\end_layout
+
+\begin_layout Itemize
+Se rapporte à un aspect du modèle général
+\end_layout
+
+\begin_layout Itemize
+Se décline en modèles particuliers
+\end_layout
+
+\begin_layout Itemize
+Forme un outil de standardisation et de communication
+\end_layout
+
+\begin_layout Itemize
+Est soumis à des règles de
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Complétude
+\end_layout
+
+\begin_layout Itemize
+Cohérence
+\end_layout
+
+\end_deeper
+\end_deeper
+\end_deeper
+\begin_layout Itemize
+Deuxième pôle : les outils logiciels
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Aident le concepteur à
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Réaliser
+\end_layout
+
+\begin_layout Itemize
+Standardiser
+\end_layout
+
+\begin_layout Itemize
+Communiquer
+\end_layout
+
+\begin_layout Itemize
+Valider les modèles
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Sont des outils CASE
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Passifs (éditeurs de spécifications, de modèles)
+\end_layout
+
+\begin_layout Itemize
+Actifs (maquetteirs, prototypeurs, simulateurs)
+\end_layout
+
+\begin_layout Itemize
+Automatique (sans intervention)
+\end_layout
+
+\begin_layout Itemize
+Assisté (avec intervention du concepteur)
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Itemize
+Troisième pôle : la démarche
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Consiste en un ensemble structuré d'étapes
+\end_layout
+
+\begin_layout Itemize
+Comporte un ensemble de règles et de propositions générales pour mettre
+ en oeuvre
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Les modèles
+\end_layout
+
+\begin_layout Itemize
+Les outils logiciels
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Est régie par un guide méthodologique
+\end_layout
+
+\end_deeper
+\end_deeper
+\end_body
+\end_document
